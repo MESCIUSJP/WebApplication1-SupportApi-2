@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@grapecity/gcpdfviewer": "^3.0.13"
+  }
+}

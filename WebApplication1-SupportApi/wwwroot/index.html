@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>DioDocs PDFビューワ</title>
+</head>
+<body onload="loadPdfViewer('#root')">
+    <div id="root"></div>
+    <script type="text/javascript" src="lib/node_modules/@grapecity/gcpdfviewer/gcpdfviewer.js "></script>
+    <script>
+        function loadPdfViewer(selector) {
+            var viewer = new GcPdfViewer(selector, { supportApi: 'api/pdf-viewer' }
+            );
+            viewer.addDefaultPanels();
+            viewer.addAnnotationEditorPanel();
+            viewer.addFormEditorPanel();
+        }
+    </script>
+</body>
+</html>
