@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="GrapeCity.DioDocs.Pdf.ViewerSupportApi.ja" Version="5.1.0.793" />
+    <PackageReference Include="GrapeCity.DioDocs.Pdf.ViewerSupportApi.ja" Version="6.2.2" />
   </ItemGroup>
 
 </Project>
