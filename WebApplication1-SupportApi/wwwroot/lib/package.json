@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@grapecity/gcpdfviewer": "4.2.2"
+    "@mescius/dspdfviewer": "8.1.3"
   }
 }
